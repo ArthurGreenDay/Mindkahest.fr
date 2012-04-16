@@ -1,0 +1,24 @@
+package net.minecraft.src;
+
+public class BlockTable extends Block{
+
+	protected BlockTable(int par1, Material par2Material) {
+		super(par1, par2Material);
+        blockIndexInTexture = 4;
+	}
+
+	 public int getRenderType()
+	    {
+	        return 30;
+	    }
+	 
+	    public boolean renderAsNormalBlock()
+	    {
+	        return false;
+	    }
+	    
+	    public boolean isOpaqueCube()
+	    {
+	        return false;
+	    }
+}

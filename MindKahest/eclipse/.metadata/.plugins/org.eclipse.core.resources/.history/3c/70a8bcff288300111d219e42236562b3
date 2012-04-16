@@ -1,0 +1,19 @@
+package net.minecraft.server;
+ 
+public class BlockSpeed extends Block {
+ 
+    public  BlockSpeed (int i, int j) {
+        super(i, j, Material.STONE); // a changer si vous voulez
+    }
+ 
+    public AxisAlignedBB e(World world, int i, int j, int k) {
+        float f = 0.125F;
+ 
+        return AxisAlignedBB.b((double) i, (double) j, (double) k, (double) (i + 1), (double) ((float) (j + 1) - f), (double) (k + 1));
+    }
+ 
+    public void a(World world, int i, int j, int k, Entity entity) {
+        entity.motX *= 5.5D; //changez x.x par la valeur que vous avez mis en solo
+        entity.motZ *= 5.5D;
+    }
+}

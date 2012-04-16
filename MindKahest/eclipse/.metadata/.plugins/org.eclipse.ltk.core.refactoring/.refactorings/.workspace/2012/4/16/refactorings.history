@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;World Of Shine - Sources launcher&apos;" deleteContents="false" description="Delete resource &apos;World Of Shine - Sources launcher&apos;" element1="/World Of Shine - Sources launcher" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1334578165037"/>
+</session>

@@ -1,0 +1,10 @@
+package net.minecraft.src;
+
+public class BlockTable extends Block{
+
+	protected BlockTable(int par1, Material par2Material) {
+		super(par1, par2Material);
+		// TODO Auto-generated constructor stub
+	}
+
+}
